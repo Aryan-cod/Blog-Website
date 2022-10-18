@@ -1,0 +1,606 @@
+*{
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+
+
+
+/* Navbar Section CSS */
+
+#nav
+{
+  background-size: cover;
+  width: 100%;
+  height: 4.2em;
+  background-color: #ffff;
+  position: fixed;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
+  scroll-behavior: smooth;
+
+}
+
+#nav p{
+  font-size: 22px;
+  padding-top: 18px;
+  padding-left: 7%;
+
+}
+
+#nav span{
+  color: #FD841F;
+
+}
+
+#elements{
+  margin-left: 50%;
+  display: flex;
+  padding-left: 20px;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+a{
+  text-decoration: none;
+  color: #73777B;
+}
+
+#elements p{
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Manrope;
+  color: #73777B;
+  margin-left: 20px;
+
+}
+#elements p a:hover{
+  color:#FD841F;
+}
+
+
+
+
+
+/* First Page Section CSS */
+
+#first{
+  background-image: url("images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40rem;
+  z-index: 1;
+
+}
+
+/* Middle Section Starts here */
+#middle{
+    width:29rem;
+    height: 16rem;
+    margin-top: -28rem;
+    margin-left: 35%;
+    background-color: #ffff;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Manrope;
+    font-size: 42px;
+    font-weight: lighter;
+    color: #203239;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 12rem;
+    z-index: 1;
+
+
+}
+
+#middle-center{
+  font-size: 20px;
+  color: #595260;
+  padding: 3%;
+
+
+}
+
+#middle-center button{
+  color: white;
+  margin-top: 4%;
+  width: 9rem;
+  height: 2.7rem;
+  font-size: 18px;
+  background-color: #2B2B2B;
+  border-radius: 5%;
+}
+
+#middle-center button:hover{
+  background-color: #FD841F;
+  border: 0;
+}
+
+
+/* Blog1 Section Starts here */
+
+#blog1,#blog2,#blog3{
+  width: 55rem;
+  height: 47rem;
+  margin-top:1%;
+  margin-left: 7rem;
+  border: .1rem solid rgba(0,0,0,.2);
+  border-radius: 2%;
+  padding: 10px 10px 0 10px;
+  z-index: 1;
+
+}
+
+
+#blog1-img,#blog2-img,#blog3-img{
+  width: 99%;
+  height: 57%;
+  background-size: cover;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px 15px 15px 15px;
+  padding-bottom: 10px;
+  z-index: 1;
+
+}
+
+#og-font
+{
+  display: flex;
+  color: #FD841F;
+  margin-left: 24px;
+  padding-bottom: 10px;
+}
+
+#sechead{
+  margin-left: 40px;
+}
+
+#og-font img{
+  width: 18px;
+  height: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* #blog1,#blog2,#blog3 p h2{
+  padding-left: 10px;
+  padding-top:20px;
+} */
+
+#Content{
+  padding-left: 40px;
+  padding-top: 20px;
+  color: #5F7161;
+  z-index: 1;
+
+}
+
+#line{
+  margin-top: 2%;
+  width: 96%;
+  border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+#lower-content
+{
+  list-style: none;
+  display: flex;
+  padding-top: 5px;
+}
+
+#lower-content-left{
+  list-style: none;
+  display: flex;
+}
+
+#lower-content-left img{
+  padding:10px 0 0 10px;
+}
+
+#lower-content-left p{
+  padding:10px 0 0 5px;
+
+}
+
+
+#lower-content-right{
+  list-style: none;
+  display: flex;
+  margin-left: 70%;
+}
+
+#lower-content-right img{
+  padding:10px 0 0 10px;
+}
+
+#lower-content-right p{
+  padding:10px 0 0 10px;
+
+}
+
+
+
+/* About Me Section Starts Here */
+
+#about-me
+{
+  width: 23rem;
+  height: 24rem;
+  float: right;
+  margin-top: -145rem;
+  margin-right: 7.4rem;
+  border: .1rem solid rgba(0,0,0,.2);
+  text-align: center;
+  border-radius: 2%;
+  z-index: 1;
+}
+
+#about-me p
+{
+  color:#7F8487;
+}
+
+#about-head-content
+{
+  width: 97%;
+  height: 40px;
+  border-radius: 7px 7px 0 0;
+  background-color: black;
+  color: white;
+  font-family: Manrope;
+  text-align: left;
+  padding: 4% 0 0 3%;
+  background-color: #383838;
+
+}
+
+#about-images
+{
+  list-style: none;
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 10%;
+}
+
+#about-images li
+{
+  padding-left: 10px;
+}
+
+
+/* Categories Section */
+
+#Categories
+{
+  position: absolute;
+  margin-left: 68%;
+  border: .1rem solid rgba(0,0,0,.2);
+  margin-top: -120rem;
+  border-radius: 7px 7px 7px 7px;
+  z-index: 1;
+
+}
+
+
+#category-head-content,#posts-head,#tags-head
+{
+  width: 23rem;
+  height: 55px;
+  border-radius: 7px 7px 0 0;
+  background-color: black;
+  color: white;
+  font-family: Manrope;
+  background-color: #383838;
+  z-index: 1;
+
+}
+
+#category-head-content h3,#posts-head h3,#tags-head h3
+{
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+#category-content{
+  margin-top: 3%;
+  line-height: 2.5rem;
+  list-style: none;
+  padding-left: 4%;
+}
+
+
+
+#category-content p:hover
+{
+  color: #FD841F;
+}
+
+#category-content p span:hover
+{
+  background-color: #FD841F;
+}
+
+#category-content span{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+
+  margin-right: 13px;
+  float: right;
+  color: #ffff;
+  background-color: #73777B;
+  border-radius: 7px 7px 7px 7px;
+
+}
+
+
+  /* Popular Posts Css starts here */
+
+  #posts{
+    position: absolute;
+    margin-left: 68%;
+    height: 26rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    margin-top: -90rem;
+    border-radius: 7px 7px 7px 7px;
+    list-style: none;
+    z-index: 1;
+
+  }
+
+  #posts-content{
+    margin: 20px 0 20px 20px;
+  }
+
+  #posts-content li{
+    padding-bottom: 30px;
+  }
+
+  #posts-content p
+  {
+    margin-bottom: 10px;
+  }
+
+
+  #posts-content p a
+  {
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
+
+  }
+
+    #posts-content p a:hover
+    {
+      color: #FD841F;
+    }
+
+
+
+/* Popular tags starts here */
+
+  #tags
+  {
+      position: absolute;
+      margin-left: 68%;
+      height: 18rem;
+      border: .1rem solid rgba(0,0,0,.2);
+      margin-top: -63rem;
+      border-radius: 7px 7px 7px 7px;
+      list-style: none;
+      z-index: 1;
+
+  }
+
+  #tags-line-1
+  {
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+
+  #tags-line-1 li div
+  {
+    height: 1.8rem;
+    width: 5rem;
+    padding-top: 10px;
+    border: .1rem solid rgba(0,0,0,.14);
+    display:inline-block;
+    text-align: center;
+    border-radius: .2rem;
+    margin-top: 2px;
+    z-index: -2;
+  }
+
+
+
+/* Wallpaper section starts Here */
+
+/* #Wallpaper
+{
+  background-image:url('file:///C:/Users/LENOVO/Desktop/documents/web%20development/Practise%20websites/Blogger%20Website/Blogging%20website/images/contact-bg.jpg');
+  width: 60rem;
+  height: 50rem;
+  background-size: cover;
+  min-height: 500px
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+} */
+
+
+#wallpaper img{
+  margin-top: 5rem;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  z-index: -5;
+  opacity: 0.84;
+  gradient:(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+
+}
+
+
+
+/* Contact us section starts Here */
+#contact-us
+{
+  width: 35rem;
+  height: 24rem;
+  margin-top: 19rem;
+  margin-left: 28rem;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+  position: absolute;
+  color: #ffff;
+  list-style: none;
+  border-radius: 10px 10px 7px 7px;
+
+
+}
+
+
+#contact-us-head
+{
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 7px 7px 7px 7px;
+  color: #ffff;
+  height: 2.5rem;
+  padding-top: 12px;
+}
+
+
+#contact-us-content
+{
+  margin-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+#contact-us-content li{
+  margin-left: 5px;
+
+
+}
+
+#contact-us-content li input
+{
+  width: 9rem;
+  height: 25px;
+  padding-left: 5px;
+  margin-left: 5px;
+  border: 1px solid #73777B;
+  border-radius: 0.2rem;
+}
+
+#contact-us-content li span{
+  padding-left: 15px;
+}
+
+#contact-us textarea
+{
+  margin-left: 1.5rem;
+  min-width: 30rem;
+  min-height: 6rem;
+  max-width: 26rem;
+  max-height: 9rem;
+  margin-left: 2rem;
+
+}
+
+#contact-us button
+{
+  margin-left: 13rem;
+  margin-top: 1rem;
+  height: 2rem;
+  width: 8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  background-color: black;
+
+}
+
+#contact-us button a
+{
+  text-decoration: none;
+  color: #ffff;
+}
+
+#contact-us button:hover
+{
+  color: white;
+  background-color: #FD841F;
+  border:none;
+
+}
+
+
+/* Footer section starts here */
+
+#footer
+{
+  width: 100%;
+  background-size: cover;
+  height: 3rem;
+  position: absolute;
+  margin-top: 60%;
+  display: flex;
+  padding-bottom: 12px;
+
+}
+
+#logos
+{
+  display: flex;
+  opacity: 0.8;
+  margin-left: 2rem;
+
+}
+
+#logos img
+{
+  padding-left: 10px;
+}
+
+#logos img:hover
+{
+  width: 43px;
+  height: 43px;
+}
+
+#footer-content
+{
+  margin-left: 54%;
+  text-transform: full-width;
+}
+
+#footer-content span a
+{
+  color: #FD841F;
+}
+
+#footer-content span a:hover
+{
+  color: #FD841F;
+  text-decoration: underline;
+
+}
